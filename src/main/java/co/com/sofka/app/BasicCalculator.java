@@ -13,4 +13,20 @@ public class BasicCalculator {
     }
 
     // TODO: Falta resta, multiplicacion y division
+
+    public Long Resta(Long number1, Long number2) {
+        logger.info( "Substracting {} - {}", number1, number2 );
+        return number1 - number2;
+    }
+
+    public Long Multiplicacion(Long number1, Long number2) {
+        logger.info( "Multiplying {} * {}", number1, number2 );
+        return number1 * number2;
+    }
+
+    public Double Division(Double number1, Double number2) {
+        logger.info( "Dividing {} / {}", number1, number2 );
+        return number1 / number2;
+    }
+
 }
