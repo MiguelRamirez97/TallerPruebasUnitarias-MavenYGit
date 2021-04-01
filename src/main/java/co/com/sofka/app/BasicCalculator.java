@@ -12,8 +12,6 @@ public class BasicCalculator {
         return number1 + number2;
     }
 
-    // TODO: Falta resta, multiplicacion y division
-
     public Long Resta(Long number1, Long number2) {
         logger.info( "Substracting {} - {}", number1, number2 );
         return number1 - number2;
